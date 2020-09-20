@@ -42,7 +42,7 @@ int main()
         cout << "input G0 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G0[i] = input;
@@ -52,7 +52,7 @@ int main()
         cout << "input G1 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G1[i] = input;
@@ -62,7 +62,7 @@ int main()
         cout << "input G2 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G2[i] = input;
@@ -72,7 +72,7 @@ int main()
         cout << "input G3 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G3[i] = input;
@@ -82,7 +82,7 @@ int main()
         cout << "input G4 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G4[i] = input;
@@ -92,7 +92,7 @@ int main()
         cout << "input G5 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G5[i] = input;
@@ -102,7 +102,7 @@ int main()
         cout << "input G6 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G6[i] = input;
@@ -112,7 +112,7 @@ int main()
         cout << "input G7 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G7[i] = input;
@@ -122,7 +122,7 @@ int main()
         cout << "input G8 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G8[i] = input;
@@ -132,7 +132,7 @@ int main()
         cout << "input G9 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G9[i] = input;
@@ -142,7 +142,7 @@ int main()
         cout << "input G10 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G10[i] = input;
@@ -152,7 +152,7 @@ int main()
         cout << "input G11 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G11[i] = input;
@@ -162,7 +162,7 @@ int main()
         cout << "input G12 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G12[i] = input;
@@ -172,7 +172,7 @@ int main()
         cout << "input G13 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G13[i] = input;
@@ -182,7 +182,7 @@ int main()
         cout << "input G14 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G14[i] = input;
@@ -192,7 +192,7 @@ int main()
         cout << "input G15 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            break;
+            continue;
         }
         else{
             G15[i] = input;
@@ -221,7 +221,7 @@ int main()
                     {
                         if (i == j)
                         {
-                            break;
+                            continue;
                         }
                         else if (NL[i] == NL[j])
                         {
@@ -247,7 +247,7 @@ int main()
                     {
                         if (i == j)
                         {
-                            break;
+                            continue;
                         }
                         else if (NL[i] == NL[j])
                         {
@@ -268,7 +268,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G0[i]]== NL[G0[j]]&& G0[i]!=257 && G0[j]!=257)
                     {
@@ -286,7 +286,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G1[i]]== NL[G1[j]] && G1[i]!=257 && G1[j]!=257)
                     {
@@ -304,7 +304,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G2[i]]== NL[G2[j]]&& G2[i]!=257 && G2[j]!=257)
                     {
@@ -322,7 +322,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G3[i]]== NL[G3[j]]&& G3[i]!=257 && G3[j]!=257)
                     {
@@ -340,7 +340,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G4[i]]== NL[G4[j]]&& G4[i]!=257 && G4[j]!=257)
                     {
@@ -358,7 +358,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G5[i]]== NL[G5[j]]&& G5[i]!=257 && G5[j]!=257)
                     {
@@ -376,7 +376,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G6[i]]== NL[G6[j]]&& G6[i]!=257 && G6[j]!=257)
                     {
@@ -394,7 +394,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G7[i]]== NL[G7[j]]&& G7[i]!=257 && G7[j]!=257)
                     {
@@ -412,7 +412,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G8[i]]== NL[G8[j]]&& G8[i]!=257 && G8[j]!=257)
                     {
@@ -430,7 +430,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G9[i]]== NL[G9[j]]&& G9[i]!=257 && G9[j]!=257)
                     {
@@ -447,7 +447,7 @@ int main()
                 for (int j = 0; j < 16; j++)
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G10[i]]== NL[G10[j]]&& G10[i]!=257 && G10[j]!=257)
                     {
@@ -464,7 +464,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G11[i]]== NL[G11[j]]&& G11[i]!=257 && G11[j]!=257)
                     {
@@ -482,7 +482,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G12[i]]== NL[G12[j]]&& G12[i]!=257 && G12[j]!=257)
                     {
@@ -500,7 +500,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G13[i]]== NL[G13[j]]&& G13[i]!=257 && G13[j]!=257)
                     {
@@ -518,7 +518,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G14[i]]== NL[G14[j]]&& G14[i]!=257 && G14[j]!=257)
                     {
@@ -536,7 +536,7 @@ int main()
                 {
                     if (i==j)
                     {
-                        break;
+                        continue;
                     }
                     else if(NL[G15[i]]== NL[G15[j]]&& G15[i]!=257 && G15[j]!=257)
                     {
