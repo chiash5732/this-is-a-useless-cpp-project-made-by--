@@ -42,7 +42,7 @@ int main()
         cout << "input G0 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G0[i] = input;
@@ -52,7 +52,7 @@ int main()
         cout << "input G1 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G1[i] = input;
@@ -62,7 +62,7 @@ int main()
         cout << "input G2 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G2[i] = input;
@@ -72,7 +72,7 @@ int main()
         cout << "input G3 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G3[i] = input;
@@ -82,7 +82,7 @@ int main()
         cout << "input G4 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G4[i] = input;
@@ -92,7 +92,7 @@ int main()
         cout << "input G5 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G5[i] = input;
@@ -102,7 +102,7 @@ int main()
         cout << "input G6 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G6[i] = input;
@@ -112,7 +112,7 @@ int main()
         cout << "input G7 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G7[i] = input;
@@ -122,7 +122,7 @@ int main()
         cout << "input G8 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G8[i] = input;
@@ -132,7 +132,7 @@ int main()
         cout << "input G9 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G9[i] = input;
@@ -142,7 +142,7 @@ int main()
         cout << "input G10 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G10[i] = input;
@@ -152,7 +152,7 @@ int main()
         cout << "input G11 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G11[i] = input;
@@ -162,7 +162,7 @@ int main()
         cout << "input G12 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G12[i] = input;
@@ -172,7 +172,7 @@ int main()
         cout << "input G13 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G13[i] = input;
@@ -182,7 +182,7 @@ int main()
         cout << "input G14 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G14[i] = input;
@@ -192,7 +192,7 @@ int main()
         cout << "input G15 No" << i << "(if input>255 to next group):";
         cin >> input;
         if (input>255){
-            continue;
+            break;
         }
         else{
             G15[i] = input;
