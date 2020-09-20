@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     int G0[15], G1[15], G2[15], G3[15], G4[15], G5[15], G6[15], G7[15], G8[15], G9[15], G10[15], G11[15], G12[15], G13[15], G14[15], G15[15];
-    int input;
+    int input, ssess;
 
     for (int i = 0; i <= 15; i++)
     {
@@ -550,7 +550,11 @@ int main()
             }
 
             cout << "`";
+            ssess++;
+            if (ssess >= 1000)
+            {
             system("cls");
+            }
     } while (FinalC = 1);
     cout << endl;
     for (int i = 0; i < 256; i++)
