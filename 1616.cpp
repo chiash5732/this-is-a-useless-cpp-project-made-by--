@@ -1,4 +1,6 @@
 #include<iostream>
+#include<stdio.h>
+#include<string.h>
 #include<cstdlib>
 #include<ctime>
 using namespace std;
@@ -29,7 +31,7 @@ int main()
     }
     for (int i = 0; i < 256; i++)
     {
-        cout << i << "|";
+        cout << i << "\t";
         if ( i%15==0 && i!=0)
         {
             cout << "\n";
@@ -547,12 +549,13 @@ int main()
                 }
             }
 
-
+            cout << "`";
+            system("cls");
     } while (FinalC = 1);
-
+    cout << endl;
     for (int i = 0; i < 256; i++)
     {
-        cout << NL[i] << "|";
+        cout << NL[i] << "/t";
         if ( i%15==0 && i!=0)
         {
             cout << "\n";
