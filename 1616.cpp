@@ -554,6 +554,7 @@ int main()
             if (ssess >= 1000)
             {
             system("cls");
+            ssess = 0;
             }
     } while (FinalC = 1);
     cout << endl;
