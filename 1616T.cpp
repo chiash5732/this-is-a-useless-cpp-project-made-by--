@@ -28,7 +28,7 @@ int main()
     {
         for (int i = 0; i <= 15; i++)
         {
-            cout << "input G" << j << " No" << i << "(if input>255 to next group):";
+            cout << "input Group " << j << " No." << i << "(if input>255 to next group):";
             cin >> input;
             if (input > 255)
             {
@@ -66,11 +66,11 @@ int main()
                     {
                         continue;
                     }
-                    else if (Check[NL[j]] == 0)
+                    else if (Check[(NL[j])] == 0)
                     {
-                        Check[NL[j]] = 1;
+                        Check[(NL[j])] = 1;
                     }
-                    else if (Check[NL[j]] == 1)
+                    else if (Check[(NL[j])] == 1)
                     {
                         do
                         {
@@ -102,11 +102,11 @@ int main()
                     {
                         continue;
                     }
-                    else if (Check[NL[j]] == 0)
+                    else if (Check[(NL[j])] == 0)
                     {
-                        Check[NL[j]] = 1;
+                        Check[(NL[j])] = 1;
                     }
-                    else if (Check[NL[j]] == 1)
+                    else if (Check[(NL[j])] == 1)
                     {
                         do
                         {
@@ -135,11 +135,11 @@ int main()
                     {
                         continue;
                     }
-                    else if (Check[NL[G[k][j]]] == 0 && G[k][i] != 257 && G[k][j] != 257)
+                    else if (Check[NL[(G[k][j])]] == 0 && G[k][i] != 257 && G[k][j] != 257)
                     {
-                        Check[NL[G[k][j]]] = 1;
+                        Check[NL[(G[k][j])]] = 1;
                     }
-                    else if (Check[NL[G[k][j]]] == 1)
+                    else if (Check[NL[(G[k][j])]] == 1)
                     {
                         do
                         {
@@ -164,6 +164,7 @@ int main()
             whilecounter = 0;
             totalruncounter++;
         }
+        system("pause");
     } while (FinalC = 1);
     cout << endl;
     for (int i = 0; i < 256; i++)
