@@ -76,7 +76,7 @@ int main()
                     } while (Check[NCN] == 0);
                     NL[j] = NCN;
                     FinalC = 1;
-                    cout << "1";
+                    // cout << "1";
                 }
             }
             for (int j = 0; j < 16; j++)
@@ -111,7 +111,7 @@ int main()
                     } while (Check[NCN] == 0);
                     NL[j] = NCN;
                     FinalC = 2;
-                    cout << "2";
+                    // cout << "2";
                 }
             }
             for (int j = 0; j < 16; j++)
@@ -135,10 +135,15 @@ int main()
         //         }
         //         else if (Check[(NL[(G[k][j])])] == 1)
         //         {
-        //             NCN = 0;
+        //             srand(time(NULL) * 1000);
+        //             NCN = rand() % (max - min + 1) + min;
         //             do
         //             {
         //                 NCN++;
+        //                 if (NCN>15)
+        //                 {
+        //                     NCN = 0;
+        //                 }
         //             } while (Check[NCN] == 0);
         //             NL[j] = NCN;
         //             FinalC = 3;
